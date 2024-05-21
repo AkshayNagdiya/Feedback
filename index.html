@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Feedback App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <h1 class="text-center my-5 display-2">Rating App</h1> -->
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="d-flex justify-content-center align-items-center" src="/Feedback.png" alt="">
+        </div>
+        <form class="my-3">
+            <select name="rating" id="Rating" class="form-control rounded-0">
+                <option value="1">&#11088</option>
+                <option value="2">&#11088 &#11088</option>
+                <option value="3">&#11088 &#11088 &#11088</option>
+                <option value="4">&#11088 &#11088 &#11088 &#11088</option>
+                <option value="5">&#11088 &#11088 &#11088 &#11088 &#11088</option>
+            </select>
+            <textarea name="description" id="description" class="form-control my-3 rounded-0"
+                placeholder="Write Feedback here...."></textarea>
+            <button class="btn btn-success w-100 rounded-0">Submit</button>
+
+            <ul class="list-group rounded-0 my-4 shadow-lg">
+                <!-- <li class="list-group-item rounded-0">
+                    <h2 class="display-6">Rating : 5</h2>
+                    <h3 class="display-6">Feedback : very good</h3>
+                    <button class="btn btn-danger btn-sm rounded-0 float-end">Delete</button>
+                </li> -->
+
+            </ul>
+        </form>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
